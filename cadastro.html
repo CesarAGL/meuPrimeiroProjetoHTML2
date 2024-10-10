@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <title>Formulário com CSS</title>
+</head>
+<body>
+    <form action="#php" method="post">
+        <label for="nome">Nome Completo:</label><br>
+        <input name="nome" id="nome" type="text" placeholder="Digite seu nome Completo" required><br><br>
+
+        <label for="endereco">E-mail:</label><br>
+        <input name="endereco" id="endereco" type="email" placeholder="Digite seu endereço de E-mail" required><br><br>
+
+        <label for="senha">Senha:</label><br>
+        <input name="senha" id="senha" type="password" placeholder="No máximo 10 caracteres" maxlength="10" required><br><br>
+
+        <label for="confirme">Confirme senha:</label><br>
+        <input name="confirme" id="confirme" type="password" placeholder="Confirme sua senha" maxlength="10" required><br><br>
+
+        <label for="tipo">Qual tipo de usuário você é?</label><br>
+        <select name="tipo" id="tipo">
+            <option value="professor">Professor</option>
+            <option value="aluno">Aluno</option>
+            <option value="jogador">Jogador</option>
+        </select><br><br>
+
+        <button type="button"><a href="sucesso.html">Cadastrar</a></button>
+        <button type="reset">Limpar dados</button>
+    </form>
+        <button><a href="index.html">Voltar para a tela de login</a></button>
+
+</body>
+</html>
