@@ -47,3 +47,9 @@ input {
     border-color: #4CAF50;
     border-radius: 10px;
 }
+select {
+    background-color: white;
+    color:#4CAF50;
+    padding:10px;
+    border-radius:10px;
+}
